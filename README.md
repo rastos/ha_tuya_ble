@@ -32,6 +32,7 @@ The integration works locally, but connection to Tuya BLE device requires device
 
 * Temperature and humidity sensors (category_id 'wsdcg')
   + Soil moisture sensor (product_id 'ojzlzzsw').
+  + Diivoo Thermo-Hygro meter (product_id '9scllli0').
 
 * CO2 sensors (category_id 'co2bj')
   + CO2 Detector (product_id '59s19z5m').
