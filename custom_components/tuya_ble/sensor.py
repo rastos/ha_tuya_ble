@@ -258,6 +258,22 @@ mapping: dict[str, TuyaBLECategorySensorMapping] = {
                 ),
                 TuyaBLEBatteryMapping(dp_id=4),
             ],
+            "ojzlzzsw": [  # Diivoo Temp-Humidity sensor
+                TuyaBLETemperatureMapping(
+                    dp_id=1,
+                    coefficient=10.0,
+                ),
+                TuyaBLESensorMapping(
+                    dp_id=2,
+                    description=SensorEntityDescription(
+                        key="humidity",
+                        device_class=SensorDeviceClass.HUMIDITY,
+                        native_unit_of_measurement=PERCENTAGE,
+                        state_class=SensorStateClass.MEASUREMENT,
+                    ),
+                ),
+                TuyaBLEBatteryMapping(dp_id=4),
+            ],
         },
     ),
     "znhsb": TuyaBLECategorySensorMapping(

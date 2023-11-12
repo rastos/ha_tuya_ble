@@ -282,6 +282,9 @@ devices_database: dict[str, TuyaBLECategoryInfo] = {
             "ojzlzzsw": TuyaBLEProductInfo(  # device product_id
                 name="Soil moisture sensor",
             ),
+            "9scllli0": TuyaBLEProductInfo(  # new device product_id
+                name="Diivoo Thermo-Hygro meter",
+            ),
         },
     ),
     "znhsb": TuyaBLECategoryInfo(
