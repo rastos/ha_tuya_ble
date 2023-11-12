@@ -258,7 +258,7 @@ mapping: dict[str, TuyaBLECategorySensorMapping] = {
                 ),
                 TuyaBLEBatteryMapping(dp_id=4),
             ],
-            "ojzlzzsw": [  # Diivoo Temp-Humidity sensor
+            "9scllli0": [  # Diivoo Temp-Humidity sensor
                 TuyaBLETemperatureMapping(
                     dp_id=1,
                     coefficient=10.0,
