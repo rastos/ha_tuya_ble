@@ -149,6 +149,21 @@ mapping: dict[str, TuyaBLECategorySelectMapping] = {
                 ),
             ],
         },
+        products={
+            "9scllli0":  # Soil moisture sensor
+            [
+                TuyaBLESelectMapping(
+                    dp_id=9,
+                    description=TemperatureUnitDescription(
+                        options=[
+                            UnitOfTemperature.CELSIUS,
+                            UnitOfTemperature.FAHRENHEIT,
+                        ],
+                        entity_registry_enabled_default=False,
+                    )
+                ),
+            ],
+        },
     ),
     "znhsb": TuyaBLECategorySelectMapping(
         products={
